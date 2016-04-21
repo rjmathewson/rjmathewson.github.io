@@ -18,20 +18,32 @@ html
     }*/
     h1 {
       color: #000000;
-      text-shadow: 2px 2px 2px #1C8B85;
+      text-shadow: 2px 2px 2px #1C5E8C;
     }
     h2 {
       color: #000000;
-      text-shadow: 2px 2px 2px #1C8B85;
+      text-shadow: 2px 2px 2px #1C5E8C;
       text-decoration: underline;
+    }
+    h3 {
+      color: #1C5E8C;
+      text-shadow: 2px 2px 2px #6BA600;
+      text-decoration:none;
+      padding-left:20px;
+      padding-top:20px;
+    }
+    h4 {
+      color: #1C5E8C;
+      text-shadow: 2px 2px 2px #6BA600;
+      float:none;
     }
     p {
       color: #000000;
-      text-shadow: 2px 2px 2px #1C8B85;
+      text-shadow: 2px 2px 2px #1C5E8C;
     }
     li {
       color: #000000;
-      text-shadow: 2px 2px 2px #1C8B85;
+      text-shadow: 2px 2px 2px #1C5E8C;
     }
     header {
         background-color:#;
@@ -53,6 +65,9 @@ html
     display:inline-block;
     width: 287px;
     height: 303px;
+   }
+   .quad-label{
+     display:inline-block;
    }
     nav {
         line-height:;
