@@ -10,12 +10,13 @@ html
     html {
       height: 100%;
     }
-    body {
+    body /*{
     background-image: url("effetti_bg.gif");
-}/*{
+    } */
+    {
        height: 100%;
        background-color:#;
-    }*/
+    }
     h1 {
       color: #000000;
       text-shadow: 2px 2px 2px #1C5E8C;
@@ -52,19 +53,32 @@ html
         display: block;
         width:100%;
     }
-    loop {
+    .loop {
         background-color:#;
         height: auto;
-        width: 606px;
-        float: left;
-        padding-left: 20px;
+        width: 100%;
+        padding-left:20px;
         font-size: 30;
         display: block;
     }
+    .cos {
+        display:inline-block;
+        width: 200px;
+        height: 150px;
+        border: 1px solid black;
+        overflow:auto;
+        font-family: sans-serif;
+        line-height: 1.7em;
+        color: #000000;
+    }
+    .loop-label{
+      text-align:center;
+      padding-right: 50px;
+    }
     .half-loop{
     display:inline-block;
-    width: 287px;
-    height: 303px;
+    width: 72px;
+    height: 76px;
    }
    .quad-label{
      display:inline-block;

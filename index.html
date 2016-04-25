@@ -5,12 +5,13 @@
  </head>
  <body>
    <header>
-     <h1>CFEA Loop Progress Tool</h1>
+     <h1 style="text-align: center; margin-bottom: 10px; margin-top: 10px;
+        ">CFEA Loop Progress Tool</h1>
    </header>
    <html>
    <head>
-   <style>
-   ul {
+  <!-- <style>
+    ul {
        list-style-type: none;
        margin: 0;
        padding: 0;
@@ -33,71 +34,74 @@
    li a:hover {
        background-color: #1C8B85;
    }
-   </style>
+ </style> -->
    </head>
    <body>
 
 
-   <ul>
+   <!--<ul>
      <li><a class="active" href="index.html">Home</a></li>
-     <!-- <li><a href="ken.html">Ken Griffey Jr.</a></li>
-     <li><a href="lou.html">Lou Piniella</a></li> -->
-   </ul>
+     <li><a href="ken.html">Ken Griffey Jr.</a></li>
+     <li><a href="lou.html">Lou Piniella</a></li>
+   </ul>-->
 
    </body>
    </html>
    <section>
-     <h2>Fullfillment Loop</h2>
-     <article>
-       <p>Click above to name your Loop
-       </p>
-       <h3 class="quad-label">Preparation</h3>
-       <h3 class="quad-label" style="padding-left:340px;">Negotiation</h3>
+     <h2 class="loop-label" style="margin-top: 10px;">Fullfillment Loop</h2>
+     <div style="width:100%">
+       <h3 class="quad-label" Style="padding-left:50px;">Preparation</h3>
+       <h3 class="quad-label" style="padding-left:200px;">Negotiation</h3>
         <div class=loop >
-                <a class="half-loop"><img id="preparation" onclick="changeImage()" src="images/preparation-0.png">
-                <script>
-                function changeImage() {
-                    var image = document.getElementById('preparation');
-                    if (image.src.match("-0")) {
-                        image.src = "images/preparation-25.png";
-                    }
-                    else if (image.src.match("-25")){
-                        image.src = "images/preparation-50.png";
-                    }
-                    else if (image.src.match("-50")){
-                        image.src = "images/preparation-75.png";
-                    }
-                    else if (image.src.match("-75")){
-                        image.src = "images/preparation-100.png";
-                    }
-                    else if (image.src.match("-100")){
-                        image.src = "images/preparation-0.png";
-                    }
-                }
-                </script>
-              </a>
-                <a class="half-loop"><img id="negotiation" onclick="changeImage2()" src="images/negotiation-0.png">
-                  <script>
-                  function changeImage2() {
-                      var image = document.getElementById('negotiation');
-                      if (image.src.match("-0")) {
-                          image.src = "images/negotiation-25.png";
+
+                  <textarea class="cos" name="cust_fullfillment_cos"></textarea>
+                  <div >
+                      <a class="half-loop"><img id="preparation" onclick="changeImage()" src="images/preparation-0.png">
+                      <script>
+                      function changeImage() {
+                          var image = document.getElementById('preparation');
+                          if (image.src.match("-0")) {
+                              image.src = "images/preparation-25.png";
+                          }
+                          else if (image.src.match("-25")){
+                              image.src = "images/preparation-50.png";
+                          }
+                          else if (image.src.match("-50")){
+                              image.src = "images/preparation-75.png";
+                          }
+                          else if (image.src.match("-75")){
+                              image.src = "images/preparation-100.png";
+                          }
+                          else if (image.src.match("-100")){
+                              image.src = "images/preparation-0.png";
+                          }
                       }
-                      else if (image.src.match("-25")){
-                          image.src = "images/negotiation-50.png";
+                      </script>
+                  </a>
+                  <a class="half-loop"><img id="negotiation" onclick="changeImage2()" src="images/negotiation-0.png">
+                      <script>
+                      function changeImage2() {
+                          var image = document.getElementById('negotiation');
+                          if (image.src.match("-0")) {
+                              image.src = "images/negotiation-25.png";
+                          }
+                          else if (image.src.match("-25")){
+                              image.src = "images/negotiation-50.png";
+                          }
+                          else if (image.src.match("-50")){
+                              image.src = "images/negotiation-75.png";
+                          }
+                          else if (image.src.match("-75")){
+                              image.src = "images/negotiation-100.png";
+                          }
+                          else if (image.src.match("-100")){
+                              image.src = "images/negotiation-0.png";
+                          }
                       }
-                      else if (image.src.match("-50")){
-                          image.src = "images/negotiation-75.png";
-                      }
-                      else if (image.src.match("-75")){
-                          image.src = "images/negotiation-100.png";
-                      }
-                      else if (image.src.match("-100")){
-                          image.src = "images/negotiation-0.png";
-                      }
-                  }
-                  </script>
-                </a>
+                      </script>
+                  </a>
+                </div>
+              <div >
                 <a class="half-loop"><img id="acceptance" onclick="changeImage3()" src="images/acceptance-0.png">
                     <script>
                     function changeImage3() {
@@ -142,21 +146,112 @@
                       }
                     </script>
                     </a>
-            <h3 class="quad-label">Acceptance</h3>
-            <h3 class="quad-label" style="padding-left:340px;">Peparation</h3>
+                  </div>
+                  <div >
+                    <textarea class="cos" name="perf_fullfillment_cos" >
+                    </textarea>
+                  </div>
 
-        </div>
-        <h2>Reciproccation Loop</h2>
+          </div>
+            <h3 class="quad-label">Acceptance</h3>
+            <h3 class="quad-label" style="padding-left:200px;">Peparation</h3>
+        <h2 class="loop-label">Reciproccation Loop</h2>
         <article>
-          <p>Click above to name your Loop
-          </p>
-           <div class=loop >
-                 <a class="half-loop"><img src="images/preparation-0.png"></a>
-                 <a class="half-loop"><img src="images/negotiation-0.png"></a>
-                 <a class="half-loop"><img src="images/acceptance-0.png"></a>
-                 <a class="half-loop"><img src="images/performance-0.png"></a>
+           <div class=loop style="padding-left:150px;">
+             <div >
+               <a class="half-loop"><img id="recip-preparation" onclick="changeImage5()" src="images/preparation-0.png">
+                 <script>
+                 function changeImage5() {
+                     var image = document.getElementById('recip-preparation');
+                     if (image.src.match("-0")) {
+                         image.src = "images/preparation-25.png";
+                     }
+                     else if (image.src.match("-25")){
+                         image.src = "images/preparation-50.png";
+                     }
+                     else if (image.src.match("-50")){
+                         image.src = "images/preparation-75.png";
+                     }
+                     else if (image.src.match("-75")){
+                         image.src = "images/preparation-100.png";
+                     }
+                     else if (image.src.match("-100")){
+                         image.src = "images/preparation-0.png";
+                     }
+                 }
+                 </script>
+             </a>
+             <a class="half-loop"><img id="recip-negotiation" onclick="changeImage6()" src="images/negotiation-0.png">
+                 <script>
+                 function changeImage6() {
+                     var image = document.getElementById('recip-negotiation');
+                     if (image.src.match("-0")) {
+                         image.src = "images/negotiation-25.png";
+                     }
+                     else if (image.src.match("-25")){
+                         image.src = "images/negotiation-50.png";
+                     }
+                     else if (image.src.match("-50")){
+                         image.src = "images/negotiation-75.png";
+                     }
+                     else if (image.src.match("-75")){
+                         image.src = "images/negotiation-100.png";
+                     }
+                     else if (image.src.match("-100")){
+                         image.src = "images/negotiation-0.png";
+                     }
+                 }
+                 </script>
+             </a>
            </div>
-     </article>
+           <div>
+             <a class="half-loop"><img id="recip-acceptance" onclick="changeImage7()" src="images/acceptance-0.png">
+                 <script>
+                 function changeImage7() {
+                     var image = document.getElementById('recip-acceptance');
+                     if (image.src.match("-0")) {
+                         image.src = "images/acceptance-25.png";
+                     }
+                     else if (image.src.match("-25")){
+                         image.src = "images/acceptance-50.png";
+                     }
+                     else if (image.src.match("-50")){
+                         image.src = "images/acceptance-75.png";
+                     }
+                     else if (image.src.match("-75")){
+                         image.src = "images/acceptance-100.png";
+                     }
+                     else if (image.src.match("-100")){
+                         image.src = "images/acceptance-0.png";
+                     }
+                 }
+                 </script>
+               </a>
+               <a class="half-loop"><img id="recip-performance" onclick="changeImage8()" src="images/performance-0.png">
+                   <script>
+                   function changeImage8() {
+                       var image = document.getElementById('recip-performance');
+                       if (image.src.match("-0")) {
+                           image.src = "images/performance-25.png";
+                       }
+                       else if (image.src.match("-25")){
+                           image.src = "images/performance-50.png";
+                       }
+                       else if (image.src.match("-50")){
+                           image.src = "images/performance-75.png";
+                       }
+                       else if (image.src.match("-75")){
+                           image.src = "images/performance-100.png";
+                       }
+                       else if (image.src.match("-100")){
+                           image.src = "images/performance-0.png";
+                       }
+                   }
+                 </script>
+                 </a>
+               </div>
+           </div>
+     </div>
    </secton>
  </body>
 </html>
