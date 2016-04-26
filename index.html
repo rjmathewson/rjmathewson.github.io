@@ -47,15 +47,14 @@
 
    </body>
    </html>
-   <section>
+   <section style="width:100%">
      <h2 class="loop-label" style="margin-top: 10px;">Fullfillment Loop</h2>
      <div style="width:100%">
-       <h3 class="quad-label" Style="padding-left:50px;">Preparation</h3>
-       <h3 class="quad-label" style="padding-left:200px;">Negotiation</h3>
+       <h3 class="quad-label" Style="padding-left:225px;">Preparation</h3>
+       <h3 class="quad-label" style="padding-left:75px;">Negotiation</h3>
         <div class=loop >
-
                   <textarea class="cos" name="cust_fullfillment_cos"></textarea>
-                  <div >
+                  <div class="container">
                       <a class="half-loop"><img id="preparation" onclick="changeImage()" src="images/preparation-0.png">
                       <script>
                       function changeImage() {
@@ -100,8 +99,6 @@
                       }
                       </script>
                   </a>
-                </div>
-              <div >
                 <a class="half-loop"><img id="acceptance" onclick="changeImage3()" src="images/acceptance-0.png">
                     <script>
                     function changeImage3() {
@@ -147,18 +144,17 @@
                     </script>
                     </a>
                   </div>
-                  <div >
-                    <textarea class="cos" name="perf_fullfillment_cos" >
-                    </textarea>
-                  </div>
-
+                  <textarea class="cos" name="perf_fullfillment_cos" ></textarea>
           </div>
-            <h3 class="quad-label">Acceptance</h3>
-            <h3 class="quad-label" style="padding-left:200px;">Peparation</h3>
-        <h2 class="loop-label">Reciproccation Loop</h2>
-        <article>
-           <div class=loop style="padding-left:150px;">
-             <div >
+            <h3 class="quad-label" style="padding-left:225px;">Acceptance</h3>
+            <h3 class="quad-label" style="padding-left:75px;">Peparation</h3>
+        <h2 class="loop-label" style="padding-top:50px;">Reciproccation Loop</h2>
+        <section style="width:100%;">
+          <h3 class="quad-label" Style="padding-left:225px;">Preparation</h3>
+          <h3 class="quad-label" style="padding-left:75px;">Negotiation</h3>
+           <div class="loop" >
+               <textarea class="cos" name="cust_reciproccation_cos"></textarea>
+             <div  class="container">
                <a class="half-loop"><img id="recip-preparation" onclick="changeImage5()" src="images/preparation-0.png">
                  <script>
                  function changeImage5() {
@@ -203,8 +199,6 @@
                  }
                  </script>
              </a>
-           </div>
-           <div>
              <a class="half-loop"><img id="recip-acceptance" onclick="changeImage7()" src="images/acceptance-0.png">
                  <script>
                  function changeImage7() {
@@ -250,7 +244,10 @@
                  </script>
                  </a>
                </div>
+               <textarea class="cos" name="perf_reciproccation_cos" ></textarea>
            </div>
+           <h3 class="quad-label" style="padding-left:225px;">Acceptance</h3>
+           <h3 class="quad-label" style="padding-left:75px;">Peparation</h3>
      </div>
    </secton>
  </body>

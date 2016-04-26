@@ -61,6 +61,13 @@ html
         font-size: 30;
         display: block;
     }
+    .container {
+        width:160px;
+        height:150px;
+        padding-left:50px;
+        Padding-right:50px;
+        display:inline-block;
+    }
     .cos {
         display:inline-block;
         width: 200px;
@@ -72,8 +79,10 @@ html
         color: #000000;
     }
     .loop-label{
-      text-align:center;
+      text-align:left;;
       padding-right: 50px;
+      padding-top: 20px;
+      margin:0px;
     }
     .half-loop{
     display:inline-block;
@@ -82,6 +91,9 @@ html
    }
    .quad-label{
      display:inline-block;
+     margin:0;
+     padding-top: 0;
+
    }
     nav {
         line-height:;
