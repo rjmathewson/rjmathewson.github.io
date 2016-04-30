@@ -3,46 +3,13 @@
   <title>Effetti CFEA Loop | Home</title>
    <link rel="stylesheet" href="index.css" type="text/css">
  </head>
-   <!--<header>
-     <h1 style="text-align: center; margin-bottom: 10px; margin-top: 10px;
-        ">CFEA Loop Progress Tool</h1>
-   </header>
-   <html>
-   <head>
-   <style>
-    ul {
-       list-style-type: none;
-       margin: 0;
-       padding: 0;
-       overflow: hidden;
-       background-color: #C0C0C0;
-   }
-
-   li {
-       float: left;
-   }
-
-   li a {
-       display: inline-block;
-       color: white;
-       text-align: center;
-       padding: 14px 16px;
-       text-decoration: none;
-   }
-
-   li a:hover {
-       background-color: #1C8B85;
-   }
- </style>
-   </head>-->
-   </html>
+</html>
    <section style="width:100%">
      <h2 class="loop-label" style="margin-top: 10px;">Fullfillment Loop</h2>
-     <div style="width:100%">
-       <!--<h3 class="quad-label" Style="padding-left:225px;">Preparation</h3>
-       <h3 class="quad-label" style="padding-left:75px;">Negotiation</h3>-->
-        <div class=loop >
-                  <textarea class="cos" name="cust_fullfillment_cos"></textarea>
+     <div class=loop>
+                  <label for="title" style="width:230px;">Conditions of Satisfaction (C.O.S.) </label>
+                  <textarea class="cos" name="cust_fullfillment_cos" placeholder="Brief Description: What the Customer wants done."></textarea>
+                  <textarea class="id-labels" name="cust_fullfillment_company" placeholder="Company Name"></textarea>
                   <div class="container">
                       <a class="half-loop"><img id="preparation" onclick="changeImage()" src="images/preparation-0.png">
                       <script>
@@ -133,12 +100,17 @@
                     </script>
                     </a>
                   </div>
-                  <textarea class="cos" name="perf_fullfillment_cos" ></textarea>
+                  <textarea class="id-labels" name="cust_fullfillment_company" placeholder="Company Name"></textarea>
+                  <!--<label for="title" style="width:230px;">Conditions of Satisfaction (C.O.S.) </label>-->
+                  <textarea class="cos" name="cust_fullfillment_cos" placeholder="Brief Description: What the Performer needs the Customer to provide to facilitate fulfillment
+"></textarea>
           </div>
+        </section>
             <!--<h3 class="quad-label" style="padding-left:225px;">Acceptance</h3>
             <h3 class="quad-label" style="padding-left:75px;">Performance</h3>-->
-        <h2 class="loop-label" style="padding-top:50px;">Reciprocation Loop</h2>
         <section style="width:100%;">
+          <h2 class="loop-label" style="padding-top:50px;">Reciprocation Loop</h2>
+
           <!--<h3 class="quad-label" Style="padding-left:225px;">Preparation</h3>
           <h3 class="quad-label" style="padding-left:75px;">Negotiation</h3>-->
            <div class="loop" >
