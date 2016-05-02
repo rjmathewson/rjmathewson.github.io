@@ -7,9 +7,14 @@
    <section style="width:100%">
      <h2 class="loop-label" style="margin-top: 10px;">Fullfillment Loop</h2>
      <div class=loop>
-                  <label for="title" style="width:230px;">Conditions of Satisfaction (C.O.S.) </label>
-                  <textarea class="cos" name="cust_fullfillment_cos" placeholder="Brief Description: What the Customer wants done."></textarea>
-                  <textarea class="id-labels" name="cust_fullfillment_company" placeholder="Company Name"></textarea>
+                  <div style="display:inline-block;">
+                    <label for="title" style="width:230px;">Conditions of Satisfaction (C.O.S.) </label>
+                    <textarea class="cos" name="cust_fullfillment_cos" placeholder="Brief Description: What the Customer wants done."></textarea>
+                  </div>
+                  <div style="display:inline-block;">
+                    <label for="title" style="width:150px;">Customer </label>
+                    <textarea class="id-labels" name="cust_fullfillment_name" placeholder="Customer Name"></textarea>
+                  </div>
                   <div class="container">
                       <a class="half-loop"><img id="preparation" onclick="changeImage()" src="images/preparation-0.png">
                       <script>
@@ -100,10 +105,16 @@
                     </script>
                     </a>
                   </div>
-                  <textarea class="id-labels" name="cust_fullfillment_company" placeholder="Company Name"></textarea>
-                  <!--<label for="title" style="width:230px;">Conditions of Satisfaction (C.O.S.) </label>-->
-                  <textarea class="cos" name="cust_fullfillment_cos" placeholder="Brief Description: What the Performer needs the Customer to provide to facilitate fulfillment
-"></textarea>
+                    <div style="display:inline-block;">
+                    <label for="title" style="width:150px;">Performer </label>
+                    <div style="display:inline-block;">
+                      <textarea class="id-labels" name="perf_fullfillment_name" placeholder="Performer Name"></textarea>
+                    </div>
+                  </div>
+                  <div style="display:inline-block;">
+                    <label for="title" style="width:230px;">Conditions of Satisfaction (C.O.S.) </label>
+                    <textarea class="cos" name="perf_fullfillment_cos" placeholder="Brief Description: What the Performer needs the Customer to provide to facilitate fulfillment."></textarea>
+                  </div>
           </div>
         </section>
             <!--<h3 class="quad-label" style="padding-left:225px;">Acceptance</h3>
@@ -114,7 +125,14 @@
           <!--<h3 class="quad-label" Style="padding-left:225px;">Preparation</h3>
           <h3 class="quad-label" style="padding-left:75px;">Negotiation</h3>-->
            <div class="loop" >
-               <textarea class="cos" name="cust_reciprocation_cos"></textarea>
+             <div style="display:inline-block;">
+               <label for="title" style="width:230px;">Conditions of Satisfaction (C.O.S.) </label>
+               <textarea class="cos" name="perf_reciprocation_cos" placeholder="Brief Description: What the Performer needs the Customer to provide to facilitate fulfillment"></textarea>
+             </div>
+             <div style="display:inline-block;">
+               <label for="title" style="width:150px;">Performer </label>
+               <textarea class="id-labels" name="perf_reciprocation_name" placeholder="Performer Name"></textarea>
+             </div>
              <div  class="container">
                <a class="half-loop"><img id="recip-preparation" onclick="changeImage5()" src="images/preparation-0.png">
                  <script>
@@ -205,8 +223,14 @@
                  </script>
                  </a>
                </div>
-               <textarea class="cos" name="perf_reciprocation_cos" ></textarea>
-           </div>
+               <div style="display:inline-block;">
+                 <label for="title" style="width:150px;">Customer </label>
+                 <textarea class="id-labels" name="cust_reciprocation_name" placeholder="Customer Name"></textarea>
+               </div>
+               <div style="display:inline-block;">
+                 <label for="title" style="width:230px;">Conditions of Satisfaction (C.O.S.) </label>
+                 <textarea class="cos" name="cust_reciprocation_cos" placeholder="Brief Description: What the Performer ( now the Customer ) wants in return for the energy expended to satisfy the Customer ( now the Performer )."></textarea>
+               </div>
            <!--<h3 class="quad-label" style="padding-left:225px;">Acceptance</h3>
            <h3 class="quad-label" style="padding-left:75px;">Peparation</h3>-->
      </div>
