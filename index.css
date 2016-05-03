@@ -37,6 +37,10 @@ html
       text-shadow: 2px 2px 2px #6BA600;
       float:none;
     }
+    hr{
+      margin-top: 40px;
+      width: 100%;
+    }
     p {
       color: #000000;
       text-shadow: 2px 2px 2px #1C5E8C;
@@ -74,6 +78,10 @@ html
     cos.container {
 
     }
+    .divider{
+      width:100%;
+      height: auto;
+    }
     .id-labels {
       display:inline-block;
       width:150px;
@@ -98,6 +106,14 @@ html
       padding-left: 420px;
       padding-right: auto;
       padding-top: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .loop-id{
+      width: 400px;
+      padding-left: 20px
+      padding-right:auto;
+      padding-top: 10px;
       margin-top: 10px;
       margin-bottom: 10px;
     }
