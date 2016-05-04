@@ -39,7 +39,7 @@ html
     }
     hr{
       margin-top: 40px;
-      width: 100%;
+
     }
     p {
       color: #000000;
@@ -92,6 +92,11 @@ html
       line-height: 1.7em;
       color: #000000;
     }
+    .bc-line{
+      display:inline-block;
+      width:100%;
+      margin-top:30px;
+    }
     .cos {
         display:inline-block;
         width: 230px;
@@ -105,8 +110,8 @@ html
     .loop-label{
       padding-left: 420px;
       padding-right: auto;
-      padding-top: 20px;
-      margin-top: 10px;
+      padding-top: 10px;
+      margin-top: 0px;
       margin-bottom: 10px;
     }
     .loop-id{
