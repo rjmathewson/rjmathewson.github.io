@@ -19,6 +19,7 @@ html
     h1 {
       color: #000000;
       text-shadow: 2px 2px 2px #1C5E8C;
+      font-size: inherit;
     }
     h2 {
       color: #000000;
@@ -85,7 +86,8 @@ html
     }
     .id_fields{
       postion: relative;
-      margin-left: 1%;
+      margin-left: .2%;
+      margin-right: .2%;
     }
     .cp_company {
       position:absolute;
@@ -112,7 +114,6 @@ html
     .bc-line{
       display:inline-block;
       width:100%;
-      margin-top:5px;
     }
     .cos {
         display:inline-block;
@@ -126,8 +127,7 @@ html
     }
     .loop-label{
       text-align: center;
-      margin-left: -275px;
-      padding-top: 10px;
+      margin-left:-220px;
       margin-top: 0px;
       margin-bottom: 10px;
     }
@@ -135,7 +135,6 @@ html
       width: 400px;
       padding-left: 20px
       padding-right:auto;
-      padding-top: 10px;
       margin-top: 10px;
       margin-bottom: 10px;
     }
