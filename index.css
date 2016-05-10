@@ -71,18 +71,22 @@ html
     .container {
         width:160px;
         height:150px;
+        margin-left: 2%;
+        margin-right: inherit;
         padding-left:auto;
         Padding-right:auto;
         display:inline-block;
     }
-    cos.container {
-
+    .cos_container {
+        display:inline-block;
+        margin-left: 2%;
     }
     .divider{
       width:100%;
       height: auto;
     }
     .id_fields{
+      width: 150px;
       postion: relative;
       margin-left: .2%;
       margin-right: .2%;
@@ -90,8 +94,10 @@ html
     .cp_company {
       position:absolute;
       top:25%
-      width:150px;
+      width:130px;
       height:30px;
+      margin-right: .2%;
+      margin-left:.2%;
       margin-bottom: 40px;
       overflow: auto;
       font-family: sans-serif;
@@ -100,7 +106,7 @@ html
     }
   .cust_name {
     display:inline-block;
-    width:150px;
+    width:130px;
     height:30px;
     margin-bottom: 40px;
     overflow: auto;
@@ -124,7 +130,7 @@ html
     }
     .loop-label{
       text-align: center;
-      margin-left:-220px;
+      margin-right: 10%;
       margin-top: 0px;
       margin-bottom: 10px;
     }
