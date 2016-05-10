@@ -87,7 +87,6 @@ html
     }
     .id_fields{
       width: 150px;
-      postion: relative;
       margin-left: 2px;
       margin-right: 2px;
     }
@@ -96,7 +95,6 @@ html
       width:130px;
       height:30px;
       margin-right: 20px;
-      margin-left:20px;
       margin-bottom: 40px;
       overflow: auto;
       font-family: sans-serif;
