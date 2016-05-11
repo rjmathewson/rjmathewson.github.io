@@ -183,7 +183,7 @@ html
     }
     footer {
         display: flex;
-        justify-content: space-between;
+        justify-content: around;
         width: 100%;
         background-color:;
         padding:5px;
