@@ -86,13 +86,14 @@ html
       height: auto;
     }
     .id_fields{
+      display: inline-block;
       width: 150px;
       margin-left: 2px;
       margin-right: 2px;
     }
     .cp_company {
       position:absolute;
-      width:130px;
+      width:80px;
       height:30px;
       margin-right: 20px;
       margin-bottom: 40px;
