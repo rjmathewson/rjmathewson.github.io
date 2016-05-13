@@ -71,7 +71,6 @@ html
     .container {
         width:160px;
         height:150px;
-        margin-left: 20px;
         margin-right: inherit;
         padding-left:auto;
         Padding-right:auto;
@@ -135,7 +134,7 @@ html
     }
     .loop-label{
       text-align: left;
-      margin-left: 300px;
+      margin-left: 330px;
       margin-top: 0px;
       margin-bottom: 10px;
     }
