@@ -134,8 +134,8 @@ html
         color: #000000;
     }
     .loop-label{
-      text-align: center;
-      margin-right: 200px;
+      text-align: left;
+      margin-left: 300px;
       margin-top: 0px;
       margin-bottom: 10px;
     }
@@ -191,7 +191,7 @@ html
     }
     footer {
         display: flex;
-        justify-content: around;
+        justify-content:space-between;
         width: 100%;
         background-color:;
         padding:5px;
